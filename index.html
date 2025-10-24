@@ -1,0 +1,44 @@
+
+
+---
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ZeroScope Online — Starter</title>
+<link rel="stylesheet" href="css/style.css">
+<!-- Babylon.js CDN -->
+<script src="https://cdn.babylonjs.com/babylon.js"></script>
+<script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+</head>
+<body>
+<div id="ui">
+<div id="topbar">
+<div id="title">ZeroScope Online (Starter)</div>
+<div id="login-area">
+<input id="username" placeholder="Guest name" />
+<button id="guest-btn">Play as Guest (Save)</button>
+<button id="op-login">OP Login</button>
+</div>
+</div>
+<div id="hud">
+<div id="health">HP: <span id="hp-val">100</span></div>
+<div id="xp">XP: <span id="xp-val">0</span></div>
+<div id="weapon">Weapon: <span id="weapon-val">Assault Rifle</span></div>
+<div id="ammo">Ammo: <span id="ammo-val">∞</span></div>
+</div>
+</div>
+<canvas id="renderCanvas"></canvas>
+
+
+<script src="js/login.js"></script>
+<script src="js/engine.js"></script>
+<script src="js/guns.js"></script>
+<script src="js/npc.js"></script>
+<script src="js/multiplayer.js"></script>
+</body>
+</html>
